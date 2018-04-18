@@ -2,6 +2,8 @@
 
 深度学习工程模板，简化加载数据、构建网络、训练模型和预测样本的流程。
 
+By C. L. Wang @ 美图云事业部
+
 ## 使用方式
 
 创建和激活虚拟环境
@@ -155,7 +157,7 @@ TensorBoard
 3. 创建预测类infer；
 4. 执行预测类infer的predict()方法；
 
-### 感谢
+## 感谢
 
 参考[Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template)
 
