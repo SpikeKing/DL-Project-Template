@@ -4,6 +4,8 @@
 
 By C. L. Wang @ 美图云事业部
 
+工程：https://github.com/SpikeKing/DL-Project-Template
+
 ## 使用方式
 
 创建和激活虚拟环境
