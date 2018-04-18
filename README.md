@@ -8,6 +8,12 @@ By C. L. Wang @ 美图云事业部
 
 ## 使用方式
 
+下载工程
+
+```text
+git clone https://github.com/SpikeKing/DL-Project-Template
+```
+
 创建和激活虚拟环境
 
 ```text
