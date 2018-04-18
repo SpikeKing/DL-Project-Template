@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## 示例工程
 
-识别[MNIST](http://yann.lecun.com/exdb/mnist/)库中手写数字，工程名``simple_mnist``
+识别[MNIST](http://yann.lecun.com/exdb/mnist/)库中手写数字，工程``simple_mnist``
 
 训练：
 
@@ -141,21 +141,22 @@ TensorBoard
 操作步骤：
 
 1. 创建自己的预测类，继承InferBase基类；
-2. 覆写``load_model()``，提供模型加载功能；``predict()``，提供样本预测功能；
+2. 覆写``load_model()``，提供模型加载功能；
+3. 覆写``predict()``，提供样本预测功能；
 
 
 ### Config
 
-定义在模型训练过程中所需的参数，使用JSON格式，参数支持：学习率、Epoch、Batch等。
+定义在模型训练过程中所需的参数，JSON格式，支持：学习率、Epoch、Batch等参数。
 
 ### Main
 
 训练：
 
 1. 创建配置文件config；
-2. 创建数据加载类dl；
+2. 创建数据加载类dataloader；
 3. 创建网络结构类model；
-4. 创建训练类trainer，参数是数据加载类dl的训练和测试数据、网络结构类model的模型；
+4. 创建训练类trainer，参数是训练和测试数据、模型；
 5. 执行训练类trainer的train()；
 
 预测：
@@ -163,7 +164,7 @@ TensorBoard
 1. 创建配置文件config；
 2. 处理预测样本test；
 3. 创建预测类infer；
-4. 执行预测类infer的predict()方法；
+4. 执行预测类infer的predict()；
 
 ## 感谢
 
