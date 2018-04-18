@@ -1,0 +1,7 @@
+{
+  "exp_name": "simple_mnist",
+  "lr": 0.001,
+  "decay": 0.0,
+  "num_epochs": 10,
+  "batch_size": 64
+}
