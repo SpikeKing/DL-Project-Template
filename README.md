@@ -1,8 +1,8 @@
 # DL Project Template
 
-深度学习工程模板，简化加载数据、构建网络、训练模型和预测样本的流程。
+[深度学习工程模板](https://github.com/SpikeKing/DL-Project-Template)，简化加载数据、构建网络、训练模型和预测样本的流程。
 
-By C. L. Wang @ 美图云事业部
+By C. L. Wang @ [美图](http://www.meipai.com/)云事业部
 
 工程：https://github.com/SpikeKing/DL-Project-Template
 
