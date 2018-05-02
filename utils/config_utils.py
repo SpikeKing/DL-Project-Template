@@ -9,7 +9,7 @@ import json
 import os
 from bunch import Bunch
 
-from utils import mkdir_if_not_exist
+from .utils import mkdir_if_not_exist
 
 
 def get_config_from_json(json_file):

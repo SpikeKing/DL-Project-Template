@@ -20,12 +20,12 @@ def mkdir_if_not_exist(dirs, is_delete=False):
             if is_delete:
                 if os.path.exists(dir_):
                     shutil.rmtree(dir_)
-                    print u'[INFO] 文件夹 "%s" 存在, 删除文件夹.' % dir_
+                    print('[INFO] 文件夹 "%s" 存在, 删除文件夹.' % dir_)
 
             if not os.path.exists(dir_):
                 os.makedirs(dir_)
-                print u'[INFO] 文件夹 "%s" 不存在, 创建文件夹.' % dir_
+                print('[INFO] 文件夹 "%s" 不存在, 创建文件夹.' % dir_)
         return True
     except Exception as e:
-        print '[Exception] %s' % e
+        print('[Exception] %s' % e)
         return False

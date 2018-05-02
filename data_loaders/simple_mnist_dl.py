@@ -20,10 +20,10 @@ class SimpleMnistDL(DataLoaderBase):
         self.y_train = to_categorical(self.y_train)
         self.y_test = to_categorical(self.y_test)
 
-        print "[INFO] X_train.shape: %s, y_train.shape: %s" \
-              % (str(self.X_train.shape), str(self.y_train.shape))
-        print "[INFO] X_test.shape: %s, y_test.shape: %s" \
-              % (str(self.X_test.shape), str(self.y_test.shape))
+        print("[INFO] X_train.shape: %s, y_train.shape: %s" \
+              % (str(self.X_train.shape), str(self.y_train.shape)))
+        print("[INFO] X_test.shape: %s, y_test.shape: %s" \
+              % (str(self.X_test.shape), str(self.y_test.shape)))
 
     def get_train_data(self):
         return self.X_train, self.y_train
