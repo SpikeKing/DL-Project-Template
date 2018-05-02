@@ -32,7 +32,7 @@ class ModelBase(object):
         if self.model is None:
             raise Exception("[Exception] You have to build the model first.")
 
-        print(("[INFO] Loading model checkpoint {} ...\n".format(checkpoint_path)))
+        print("[INFO] Loading model checkpoint {} ...\n".format(checkpoint_path))
         self.model.load_weights(checkpoint_path)
         print("[INFO] Model loaded")
 
