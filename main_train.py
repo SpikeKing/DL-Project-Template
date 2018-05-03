@@ -39,6 +39,8 @@ def main_train():
         exit(0)
     # config = process_config('configs/simple_mnist_config.json')
 
+    np.random.seed(47)  # 固定随机数
+
     print '[INFO] 加载数据...'
     dl = SimpleMnistDL(config=config)
 

@@ -37,7 +37,7 @@ def process_config(json_file):
 
     mkdir_if_not_exist(config.tb_dir)  # 创建文件夹
     mkdir_if_not_exist(config.cp_dir)  # 创建文件夹
-    mkdir_if_not_exist(config.cp_dir)  # 创建文件夹
+    mkdir_if_not_exist(config.img_dir)  # 创建文件夹
     return config
 
 
