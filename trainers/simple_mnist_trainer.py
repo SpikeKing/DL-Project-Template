@@ -79,7 +79,7 @@ class FPRMetric(Callback):
         warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
         precision, recall, f_score, _ = precision_recall_fscore_support(
             val_y, prd_y, average='macro')
-        print " — val_f1: % 0.4f — val_pre: % 0.4f — val_rec % 0.4f" % (f_score, precision, recall)
+        print(" — val_f1: % 0.4f — val_pre: % 0.4f — val_rec % 0.4f" % (f_score, precision, recall))
 
 
 class FPRMetricDetail(Callback):
@@ -97,4 +97,4 @@ class FPRMetricDetail(Callback):
         precision, recall, f_score, support = precision_recall_fscore_support(val_y, prd_y)
 
         for p, r, f, s in zip(precision, recall, f_score, support):
-            print " — val_f1: % 0.4f — val_pre: % 0.4f — val_rec % 0.4f - ins %s" % (f, p, r, s)
+            print(" — val_f1: % 0.4f — val_pre: % 0.4f — val_rec % 0.4f - ins %s" % (f, p, r, s))
