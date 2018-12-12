@@ -3,6 +3,7 @@
 Copyright (c) 2018. All rights reserved.
 Created by C. L. Wang on 2018/4/18
 """
+from __future__ import absolute_import
 import argparse
 import json
 
